@@ -1,0 +1,3 @@
+# Common Errors and Troubleshooting
+
+Can put stuff like the sig figs issue here.

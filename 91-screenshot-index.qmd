@@ -1,0 +1,44 @@
+# Screenshot Index
+
+::: {.callout-note}
+## Draft page
+
+Use this page as a placeholder. Replace this note with the procedure-specific instructions students need for your homework.
+:::
+
+## When to use this
+
+Describe the type of research question this analysis answers.
+
+## Data requirements
+
+| Requirement | What students should check |
+|---|---|
+| Outcome variable | Replace with required variable type |
+| Predictor/grouping variable | Replace with required variable type |
+| Observations | Replace with independence/repeated-measures requirement |
+| Missing values | State course rule |
+
+## Steps in jamovi
+
+1. Open the homework data file.
+2. Select the correct analysis menu.
+3. Move the required variables into the correct boxes.
+4. Select the options required by the homework.
+5. Check the output table named in the homework.
+
+## What to report
+
+- Test statistic:
+- Degrees of freedom:
+- *p*-value:
+- Effect size:
+- Confidence interval, if required:
+
+## Common mistakes
+
+::: {.callout-warning}
+## Watch for this
+
+List one or two mistakes students commonly make on this assignment.
+:::

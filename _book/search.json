@@ -1,0 +1,275 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Jamovi Handbook",
+    "section": "",
+    "text": "Welcome\nWelcome to the STAT 301/307 jamovi handbook guide. This guide is designed to help you use jamovi for your homework through examples using real data.\nTo download these instructions as a pdf, click here. (not implemented yet)\nThe guide is split up into the following chapters and sections. Click the link to go to the corresponding section.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Jamovi Handbook",
+    "section": "",
+    "text": "Chapter 1: Getting Started\n\n1.1 Installing jamovi\n1.2 Setting up and loading data into jamovi\n\n\n\nChapter 2: Describing Data\n\n2.1 Generating descriptive statistics\n2.2 Creating plots and tables\n\n\n\nChapter 3: Doing Inference\n\n3.1 T-tests for one population\n3.2 T-tests for two populations\n3.2 Power analysis\n3.3 ANOVA & multiple comparisons\n3.4 Linear regression\n\n\n\nAppendix\n\nA.1 Common issues and solutions",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "installing-jamovi.html",
+    "href": "installing-jamovi.html",
+    "title": "Installing jamovi",
+    "section": "",
+    "text": "What is jamovi?\njamovi is a statistical software that we will use for homework assignments in this class. You can think of it like a fancy calculator that can read in data and quickly calculate statistics, summarize data, and create visualizations.",
+    "crumbs": [
+      "Chapter 1: Getting Started",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Installing jamovi</span>"
+    ]
+  },
+  {
+    "objectID": "installing-jamovi.html#where-do-i-get-jamovi",
+    "href": "installing-jamovi.html#where-do-i-get-jamovi",
+    "title": "Installing jamovi",
+    "section": "Where do I get jamovi?",
+    "text": "Where do I get jamovi?\nStart by going to jamovi.org. After scrolling down a bit, you should see something like the figure below:\n\n\n\n\n\n\nFigure 1.1\n\n\n\nThe option on the left is jamovi Cloud, which allows you to use jamovi in your browser without downloading or installing anything. The option on the right is jamovi Desktop, which downloads and installs jamovi onto your computer.",
+    "crumbs": [
+      "Chapter 1: Getting Started",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Installing jamovi</span>"
+    ]
+  },
+  {
+    "objectID": "installing-jamovi.html#should-i-use-jamovi-cloud-or-jamovi-desktop",
+    "href": "installing-jamovi.html#should-i-use-jamovi-cloud-or-jamovi-desktop",
+    "title": "Installing jamovi",
+    "section": "Should I use jamovi Cloud or jamovi Desktop?",
+    "text": "Should I use jamovi Cloud or jamovi Desktop?\nIn this class, you can use either. The benefit of jamovi Cloud is that you don’t need to download or install anything. The downsides are that you can only use jamovi Cloud when you have an internet connection, you have a limited number of minutes per session, and you’ll need to sign up for an account. We would recommend jamovi Desktop, but feel free to use jamovi Cloud if you’re having trouble with the download and installation steps.",
+    "crumbs": [
+      "Chapter 1: Getting Started",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Installing jamovi</span>"
+    ]
+  },
+  {
+    "objectID": "installing-jamovi.html#jamovi-cloud",
+    "href": "installing-jamovi.html#jamovi-cloud",
+    "title": "Installing jamovi",
+    "section": "jamovi Cloud",
+    "text": "jamovi Cloud\nIf you opt to use jamovi Cloud, all you need to do is click on ‘jamovi Cloud’, then click on ‘Start’, which should open up a screen like this:\n\nYou’ll need to start by creating an account.\nClick on ‘Get Started’ –&gt; ‘Sign in as Guest’ –&gt; ‘Sign in with email’. Enter your CSU email, click on ‘Next’, and then set your password. Then click on ‘Send verification’ and click the link that is emailed to you to verify your account. It may take a few minutes for it to show up in your inbox.\n\n\n\n\n\n\nWarningCheck your spam folder!\n\n\n\nSometimes the verification emails can get filtered; make sure to check your spam/junk folder for the verification email.",
+    "crumbs": [
+      "Chapter 1: Getting Started",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Installing jamovi</span>"
+    ]
+  },
+  {
+    "objectID": "installing-jamovi.html#downloading-and-installing-jamovi-desktop",
+    "href": "installing-jamovi.html#downloading-and-installing-jamovi-desktop",
+    "title": "Installing jamovi",
+    "section": "Downloading and Installing jamovi Desktop",
+    "text": "Downloading and Installing jamovi Desktop\n\nDownload for Windows\nAfter clicking on jamovi Desktop from the page seen in Figure 1.1, you should see the following screen, or something similar:\n\n\n\n\n\n\nFigure 1.2\n\n\n\nClick on whatever the “solid & current” version is (the number may be different than what you see in Figure 1.2) to download jamovi.\n\n\nDownload for Mac\nAfter clicking on jamovi Desktop from the page seen in Figure 1.1, scroll down until you see something like this:\n\n\n\n\n\n\nFigure 1.3\n\n\n\nClick on whatever the stable version for Mac is to download it.\n\nRegardless of whether you have a Mac or Windows computer, double click on the file after it finishes downloading to open the installation wizard and follow the default steps to install jamovi. After it finishes installing, locate the app and start it.",
+    "crumbs": [
+      "Chapter 1: Getting Started",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Installing jamovi</span>"
+    ]
+  },
+  {
+    "objectID": "opening-data.html",
+    "href": "opening-data.html",
+    "title": "Setting up jamovi and Reading Data",
+    "section": "",
+    "text": "Entering Data Manually\nAfter installing jamovi and opening it up, you should see a screen without any data in it, like the image below:\nThe VERY FIRST thing we need to do is to change the number formatting:\nTo do analysis in jamovi, we’ll first need data! We can either read data in via a file, or we can enter it in manually.\nTo enter in data manually, you can directly type in numbers or text into each cell like in an Excel sheet. To change the name of the variable and the data type, double click the top of the column (where it has the label ‘A’). It should bring up the following menu:\nAt the top, you can change the name of the variable to something other than ‘A’, and add an optional description. You can also change the variable type; here ‘Nominal’ is equivalent to what we refer to as Categorical, and ‘Continuous’ is equivalent to what we call Quantitative. They have a third option called ‘Ordinal’, which we don’t have to worry about, and a fourth option called ‘ID’, which is typically for unique identifiers like names or ID numbers.",
+    "crumbs": [
+      "Chapter 1: Getting Started",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Setting up jamovi and Reading Data</span>"
+    ]
+  },
+  {
+    "objectID": "opening-data.html#reading-in-data",
+    "href": "opening-data.html#reading-in-data",
+    "title": "Setting up jamovi and Reading Data",
+    "section": "Reading in Data",
+    "text": "Reading in Data\nIn this course, data is typically in a “Comma-Separated Values” file or CSV file for short, which stores data in a table format. Basically all of the data we work with in this course will be stored in CSV files.\nStart by downloading the wingspan_data.csv file from Canvas. Then in jamovi:\n\nClick on the three horizontal lines in the top left corner. 2a. (If you’re using jamovi Desktop) Click ‘Open’ –&gt; ‘Browse’ 2b. (If you’re using jamovi Cloud) Click ‘Open’ –&gt; ‘This Device’\nThis will bring up a file explorer window. Locate the wingspan.csv file you just downloaded and click ‘Open’.\n\n\n\n\n\n\n\nStep 1: Click on the three horizontal lines.\n\n\n\n\n\n\n\nStep 2: Click on ‘Open’.\n\n\n\n\n\nYour jamovi should then look like the following:\n\nGreat! Now we have data that we will do analysis on in the next chapter.",
+    "crumbs": [
+      "Chapter 1: Getting Started",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Setting up jamovi and Reading Data</span>"
+    ]
+  },
+  {
+    "objectID": "descriptives.html",
+    "href": "descriptives.html",
+    "title": "Descriptive Statistics",
+    "section": "",
+    "text": "Default statistics\nIn this section we’ll go over how to calculate means, medians, quartiles, and other descriptive statistics for data. Begin by loading in the wingspan_data.csv dataset into jamovi.\nWe’ll begin by getting descriptive statistics for the wingspans of the birds.\nAfter following these steps, the window on the right half of the screen should show these descriptive statistics:",
+    "crumbs": [
+      "Chapter 2: Describing Data",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Descriptive Statistics</span>"
+    ]
+  },
+  {
+    "objectID": "descriptives.html#default-statistics",
+    "href": "descriptives.html#default-statistics",
+    "title": "Descriptive Statistics",
+    "section": "",
+    "text": "Click on the ‘Analyses’ tab at the top of the window.\nClick on ‘Exploration’ –&gt; ‘Descriptives’\nTo get statistics for the wingspans, click on the Wingspan variable on the left, then click on the arrow adding it to the ‘Variables’ window. You can also drag and drop variables into the window you want.\n\n\n\n\n\n\n\nStep 2: Click on ‘Exploration’ and then ‘Descriptives’\n\n\n\n\n\n\n\nStep 3: Place the Wingspan variable into the ‘Variables’ window",
+    "crumbs": [
+      "Chapter 2: Describing Data",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Descriptive Statistics</span>"
+    ]
+  },
+  {
+    "objectID": "descriptives.html#adding-more-statistics",
+    "href": "descriptives.html#adding-more-statistics",
+    "title": "Descriptive Statistics",
+    "section": "Adding more statistics",
+    "text": "Adding more statistics\nBy default, jamovi only shows the number of entries (N), the number of rows with missing values (Missing), the mean, median, standard deviation, minimum, and maximum. We can get other statistics by clicking on the ‘Statistics’ dropdown menu on the left half of the window:\n\n\n\nClick on ‘Statistics’ to add more statistics to the table\n\n\nWe can see that we can add or remove a number of statistics from this menu. Most of them we can ignore, but let’s add the quartiles to our summary. This can be done by going to the ‘Percentile Values’ term and checking the ‘Percentiles’ box. By default, the values for the ‘Percentiles’ box should be ‘25,50,75’; if they aren’t set to this, change them and then check the box. You should now have the 1st, 2nd, and 3rd quartiles in your descriptive statistics table:",
+    "crumbs": [
+      "Chapter 2: Describing Data",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Descriptive Statistics</span>"
+    ]
+  },
+  {
+    "objectID": "descriptives.html#summary-statistics-split-by-group",
+    "href": "descriptives.html#summary-statistics-split-by-group",
+    "title": "Descriptive Statistics",
+    "section": "Summary statistics split by group",
+    "text": "Summary statistics split by group\nSometimes we want to look at summary statistics for particular groups. For example, we may want to compare the mean and median wingspan of birds from the European region to the mean and median wingspan of birds from Oceania region. To do this in jamovi, we can use the ‘Split by’ window.\nJust like how we added the Wingspan variable to the ‘Variables’ window, add the Region variable to the ‘Split by’ window:\n\nOn the right half of jamovi, we can see now that each of our statistics is now split up by region. It’s a little difficult to read though. Click on the ‘Descriptives’ drop down menu below the variable names and select ‘Variables across rows’ to group them horizontally instead of vertically.\n\n\n\nClicking on ‘Variables across rows’ displays the statistics horizontally\n\n\nIn the next section, we’ll show how to visualize distributions of data by creating tables and graphs.",
+    "crumbs": [
+      "Chapter 2: Describing Data",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Descriptive Statistics</span>"
+    ]
+  },
+  {
+    "objectID": "graphs-and-tables.html",
+    "href": "graphs-and-tables.html",
+    "title": "Plots and Tables",
+    "section": "",
+    "text": "Tables\nIn this section we’ll go over how to generate 1-way and 2-way tables for categorical data, as well as how to generate histogram and boxplots for quantitative data.",
+    "crumbs": [
+      "Chapter 2: Describing Data",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Plots and Tables</span>"
+    ]
+  },
+  {
+    "objectID": "graphs-and-tables.html#tables",
+    "href": "graphs-and-tables.html#tables",
+    "title": "Plots and Tables",
+    "section": "",
+    "text": "One-Way Tables\nFirst, we’ll create a one-way table of regions.\n\nUnder ‘Analyses’, click on ‘Frequencies’ –&gt; ‘N Outcomes’\nDdd the Region variable to the ‘Variables’ window\n\n\n\n\nClick on ‘N Outcomes’\n\n\nYour jamovi settings and output should look like the following:\n\n\n\nOutput and settings for a one-way table\n\n\n\n\nTwo-Way Tables\nNext, we’ll create a two-way table (what jamovi calls a contingency table) of Nest Type vs Region.\n\nUnder ‘Analyses’, click on ‘Frequencies’ –&gt; ‘Independent Samples’\nAdd the Region variable to the ‘Rows’ window\nAdd Nest Type to the ‘Columns’ window\n\n\n\n\nClick on ‘Independent Samples’\n\n\nYour jamovi settings and output should look like the following:\n\n\n\nOutput and settings for a two-way table",
+    "crumbs": [
+      "Chapter 2: Describing Data",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Plots and Tables</span>"
+    ]
+  },
+  {
+    "objectID": "graphs-and-tables.html#plots",
+    "href": "graphs-and-tables.html#plots",
+    "title": "Plots and Tables",
+    "section": "Plots",
+    "text": "Plots\nWe’re going to learn how to make histograms and boxplots of the Wingspan variable. To do so, we’ll start with the following:\n\nUnder ‘Analyses’, click on ‘Exploration’ –&gt; ‘Descriptives’\nAdd the Wingspan variable to the ‘Variables’ window\nClick on the ‘Plots’ dropdown menu below\n\n\n\nHistograms\nNow click on the ‘Histogram’ check box to create a histogram of wingspans.\n\n\n\nA single histogram of the Wingspan variable\n\n\nIt’s also easy to split the histograms by another variable. We’ll create a histogram of wingspans for each nest type by adding the Nest Type variable into the ‘Split By’ window:\n\n\n\nHistograms of the Wingspan variable, split by the Nest Type variable\n\n\n\n\nBoxplots\nSimilarly, we can create boxplots by selecting the ‘Boxplot’ checkbox as seen below:",
+    "crumbs": [
+      "Chapter 2: Describing Data",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Plots and Tables</span>"
+    ]
+  },
+  {
+    "objectID": "ttest.html",
+    "href": "ttest.html",
+    "title": "T-Tests for One Population",
+    "section": "",
+    "text": "T-Tests for Movie Ratings\nIn this section we’ll learn how to compute t-statistics and confidence intervals for means in jamovi, including for paired differences. We’ll use the rotten_tomatoes.csv dataset for this example, which has data on movies taken from RottenTomatoes.com. First, we’ll calculate t-statistics and confidence intervals for Critics Ratings and Audience Ratings individually. Then, we’ll do a paired test on their difference.\nConcept Check: Why would the difference between the Critics and Audience ratings be paired?\nWe’re going to test the hypothesis that \\(H_0:\\mu = 60\\) for both the Critic Rating and Audience Rating variables.\nStart by loading in the rotten_tomatoes.csv dataset if you haven’t already. Then:\nYou should get the following output:",
+    "crumbs": [
+      "Chapter 3: Doing Inference",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>T-Tests for One Population</span>"
+    ]
+  },
+  {
+    "objectID": "ttest.html#t-tests-for-movie-ratings",
+    "href": "ttest.html#t-tests-for-movie-ratings",
+    "title": "T-Tests for One Population",
+    "section": "",
+    "text": "Under Analyses, click ‘T-Tests’ –&gt; ‘One Sample T-Tests’\nAdd the Critic Rating and Audience Rating variables to the ‘Dependent Variables’ window.\nUnder Tests, ensure that ‘Student’s’ is the only box checked (leave ‘Bayes factor’ unchecked)\nUnder Hypothesis, set ‘Test value’ to \\(60\\) and click ‘\\(\\ne\\) Test value’\nUnder Additional Statistics, check ‘Mean difference’ and ‘Confidence interval’ are checked, and set the confidence interval to 95%\n\n\n\n\nOne sample t-test settings\n\n\n\n\n\n\nOne sample t-test output",
+    "crumbs": [
+      "Chapter 3: Doing Inference",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>T-Tests for One Population</span>"
+    ]
+  },
+  {
+    "objectID": "ttest.html#paired-t-test-for-ratings-difference",
+    "href": "ttest.html#paired-t-test-for-ratings-difference",
+    "title": "T-Tests for One Population",
+    "section": "Paired T-Test for Ratings Difference",
+    "text": "Paired T-Test for Ratings Difference\n\nMethod 1 (No Ratings Differences column)\nPaired t-tests look at the mean and standard error of the differences column. If we have the two columns but we do not have the differences column, we can use the following procedure:\n\nUnder ‘Analyses’, click on ‘T-Tests’ –&gt; ‘Paired Samples T-Test’\nAdd the Critics Rating variable and the Audience Rating variable to the ‘Paired Variables’ window. Note that the order will determine the sign of the statistic\nUnder Tests, ensure that ‘Student’s’ is the only box checked (leave ‘Bayes factor’ unchecked)\nUnder Hypothesis, click ‘Measure 1 \\(\\ne\\) Measure 2’\nUnder Additional Statistics, check ‘Mean difference’ and ‘Confidence interval’ are checked, and set the confidence interval to 95%\n\nThe final settings should look like so:\n\n\n\nPaired t-test settings\n\n\nAnd you should get the following table:\n\n\n\nPaired t-test output\n\n\n\n\nMethod 2 (Differences column)\nIf a column is present that already has the differences between our two variables of interest, then we can just perform a one-sample t-test the same way we did in the previous section:\n\nUnder ‘Analyses’, click on ‘T-Tests’ –&gt; ‘One Sample T-Test’\nAdd the Rating Difference variable to the ‘Dependent Variables’ window\nUnder Tests, ensure that ‘Student’s’ is the only box checked (leave ‘Bayes factor’ unchecked)\nUnder Hypothesis, set ‘Test value’ to 0 and click ‘\\(\\ne\\) Test value’\nUnder Additional Statistics, check ‘Mean difference’ and ‘Confidence interval’ are checked, and set the confidence interval to 95%\nAlso under Additional Statistics, we need to check the ‘Descriptives’ box to get the standard error.\n\nThe final settings should look like so:\n\n\n\nPaired t-test settings\n\n\nAnd you should get the following table:\n\n\n\nPaired t-test output",
+    "crumbs": [
+      "Chapter 3: Doing Inference",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>T-Tests for One Population</span>"
+    ]
+  },
+  {
+    "objectID": "unpaired-ttest.html",
+    "href": "unpaired-ttest.html",
+    "title": "T-Tests for Two Populations (Unpaired)",
+    "section": "",
+    "text": "In this section we’ll go over how to calculate t-statistics, standard errors, and confidence intervals for a difference of means problem with unpaired data. We’re going to estimate the difference in mean arrival delay times between Delta flights and United flights from Denver to LA in 2024 using the flight_data.csv dataset.\nIn other words, we are going to test the hypothesis \\(H_0: \\mu_{Delta} = \\mu_{United}\\), where \\(\\mu\\) represents the population average arrival delay time from Denver to LA.\nStart by loading in that data set. Then:\n\nGo to the Analyses tab and click on ‘T-Tests’ –&gt; ‘Independent-Samples T-Test’.\nAdd the Delay variable into the ‘Dependent Variables’ window.\nAdd the Airline variable into the ‘Grouping Variable’ window.\nEnsure that the following boxes are checked: ‘Student’s’, ‘Mean Difference’, ‘Confidence Interval (95%)’, and ‘Group 1 ≠ Group 2’.\n\n\n\n\n\n\n\nSelect ‘Independent-Samples T-Test’\n\n\n\n\n\n\n\nFinal settings for the test\n\n\n\n\n\nYour output should look like this:\n\n\n\nUnpaired t-test output",
+    "crumbs": [
+      "Chapter 3: Doing Inference",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>T-Tests for Two Populations (Unpaired)</span>"
+    ]
+  },
+  {
+    "objectID": "power.html",
+    "href": "power.html",
+    "title": "Power Analysis",
+    "section": "",
+    "text": "In this section we’ll go over how to do power analysis in jamovi. There are two things to note in this section that differ from others we’ve done!\n\nPower analysis isn’t included in jamovi be default, so we’ll need to download an additional module.\nWe don’t need any data for this section!\n\n\nDownloading the Power Module\n\nClick on the ‘Modules’ –&gt; ‘jamovi library’.\nUnder the ‘Available’ tab, use the search bar and type in ‘power’\nScroll until you see a module called ‘jpower’.\nClick the ‘install’ button.\n\n\n\n\n\n\n\nClick on ‘Modules’\n\n\n\n\n\n\n\nSearch for the jpower module\n\n\n\n\n\nIf done correctly, you should now have a ‘Power’ section at the top of the screen in the ‘Analyses’ tab.\n\n\n\nThe menu after successfully installing the power module\n\n\n\n\nPower Module settings.\nUnder the ‘Analyses’ tab, click on ‘Power’ –&gt; ‘Independent Samples T-test’. Make sure you have the following settings:\n\n‘\\(\\alpha\\) (type I error rate)’ \\(= 0.05\\)\n‘Relative size of group 2 to group 1’ \\(= 1\\)\nTails = ‘two-tailed’\n\n\n\n\nThe required settings for power analysis\n\n\nPower analysis problems can come in three different varieties:\n\nGiven a sample size and effect size, calculate power.\nGiven power and an effect size, calculate the sample size.\nGiven power and a sample size, calculate the effect size.\n\n\n\nComputing Power\nFor this problem, let’s assume we have a sample size of \\(20\\) and an effect size of \\(0.5\\). To calculate power:\n\nClick the dropdown menu next to ‘Calculate’ and select ‘Power’\nSet ‘Minimally-interesting effect size (\\(\\delta\\))’ \\(= 0.5\\)\nSet ‘N for group 1’ \\(= 10\\)\n\n\n\n\nSettings for computing power\n\n\nYour output should look like the following:\n\n\n\nCalculating power for \\(N = 20\\), \\(\\delta = 0.5\\)\n\n\nThe power given in the table is \\(0.185\\). That means that for a sample size of \\(20\\) and an effect size of \\(0.5\\), the probability of correctly rejecting a t-test is \\(0.185\\).\n\n\n\n\n\n\nWarningNote the sample size!\n\n\n\nIf we want a total sample size of \\(20\\), we want \\(10\\) observations in each group. That’s why we set \\(N = 10\\) even though we stated at the beginning that the sample size of interest is \\(20\\).\n\n\n\n\nComputing Sample Size\nFor this problem, we’ll set our effect size to \\(\\delta = 0.5\\) and the power to \\(0.7\\), and we’ll calculate the minimum sample size required.\n\nClick the dropdown menu next to ‘Calculate’ and select ‘N per group’\nSet ‘Minimally-interesting effect size (\\(\\delta\\))’ \\(= 0.5\\)\nSet ‘Minimum desired power’ \\(= 0.7\\)\n\n\n\n\nSettings for computing sample size\n\n\nYour output should look like the following:\n\n\n\nCalculating sample size for power \\(= 0.7\\), \\(\\delta = 0.5\\)\n\n\nThe sample size required for each group is 51, so the total sample size required is \\(51 + 51 = 102\\).\n\n\nComputing Effect Size\nFinally, we’ll calculate effect size given sample size and desired power. We’ll use a sample size of \\(20\\) and a power of \\(0.7\\)\n\nClick the dropdown menu next to ‘Calculate’ and select ‘Effect size’\nSet ‘Minimum desired power’ \\(= 0.7\\)\nSet ‘N for group 1’ \\(= 10\\)\n\n\n\n\nSettings for computing sample size\n\n\nYour output should look like the following:\n\n\n\nCalculating sample size for power \\(= 0.7\\), \\(\\delta = 0.5\\)",
+    "crumbs": [
+      "Chapter 3: Doing Inference",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Power Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "anova.html",
+    "href": "anova.html",
+    "title": "ANOVA and Multiple Comparisons",
+    "section": "",
+    "text": "Multiple Comparisons\nIn this section we’ll go over how to do ANOVA in jamovi. We’re going to use the rotten_tomatoes.csv dataset to see if there is a difference in average runtime between different genres of movies.\nYour window should look something like the following. We use different notation than jamovi, so the image is labeled using ‘our’ notation:\nWhen you see the word ‘Residual’, you can think of it as being synonymous with ‘Error’.\nAfter performing ANOVA and getting a p-value less than 0.05, we may want to then do multiple comparisons. To do this, stay on the ANOVA page from the previous section. Then:\nAfter doing this, you should get the following table:",
+    "crumbs": [
+      "Chapter 3: Doing Inference",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>ANOVA and Multiple Comparisons</span>"
+    ]
+  },
+  {
+    "objectID": "anova.html#multiple-comparisons",
+    "href": "anova.html#multiple-comparisons",
+    "title": "ANOVA and Multiple Comparisons",
+    "section": "",
+    "text": "Click on ‘Post Hoc Tests’ on the left side of the screen under the variable windows.\nPlace the Genre variable from the window on the left to the window on the right.\nUnder the Correction label, make sure the only box checked is ‘No correction’.\n\n\n\n\nMultiple comparisons settings\n\n\n\n\n\n\n\n\n\nFigure 8.1: Multiple comparisons table\n\n\n\n\nInterpreting the table\nFocus on the 1st row of the table, highlighted in red in Figure 8.1.\nThis says that Action & Adventure movies are estimated to be \\(19.939\\) minutes longer than Animation movies, on average. The standard error for this estimate is \\(1.682\\) minutes, the t-statistic for this estimate is \\(11.855\\), and the p value is smaller than \\(0.001\\).\nNow focus on the 7th row of the table, highlighted in green in Figure 8.1.\nThis says that Animation movies are estimated to be \\(7.762\\) minutes shorter than Documentary movies, on average. The standard error for this estimate is \\(2.198\\) minutes, the t-statistic for this estimate is \\(-3.531\\), and the p value is smaller than \\(0.001\\).",
+    "crumbs": [
+      "Chapter 3: Doing Inference",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>ANOVA and Multiple Comparisons</span>"
+    ]
+  },
+  {
+    "objectID": "regression.html",
+    "href": "regression.html",
+    "title": "Linear Regression",
+    "section": "",
+    "text": "In this section we’ll go over how to compute correlations and do simple and multiple linear regression in jamovi. We’re going to predict the height of a tree using its diameter and species. Begin by loading in the tree_data.csv dataset from Canvas.\n\nCorrelation\nLet’s start by computing the correlation between the height and diameter of the trees.\n\nUnder ‘Analyses’ click on ‘Regression’ –&gt; ‘Correlation Matrix’\nAdd the Diameter and Height variables to the variables window.\n\n\n\n\n\n\n\nSelect ‘Correlation Matrix’\n\n\n\n\n\n\n\nAdd the Diameter and Height variables\n\n\n\n\n\nYou should get the following output:\n\n\n\nCorrelation matrix output\n\n\n\n\nSimple Linear Regression\n\nIn the Analysis tab, click on ‘Regression’ –&gt; ‘Linear Regression’.\nAdd the Height variable to the ‘Dependent Variable’ window.\nAdd the Diameter variable to the ‘Covariates’ window.\n\n\n\n\n\n\n\nSelect ‘Linear Regression’\n\n\n\n\n\n\n\nAdd the Height and Diameter variables\n\n\n\n\n\nThat’s it! Your output should match the image below:\n\n\n\nSimple linear regression output\n\n\n\n\nMultiple Linear Regression\n\nAdding a Binary Variable\nNow we’re going to add the binary variable Pine which tells us if the observation is a Pine tree (\\(1\\)) or a Fir tree (\\(0\\)). Add the Pine variable to the ‘Factors’ window to get the following output:\n\n\n\n\n\n\nAdding a binary variable\n\n\n\n\n\n\n\nMultiple linear regression output\n\n\n\n\n\n\n\nAdding an Interaction Variable\nOur Pine variable improved the fit, but was not statistically significant. It may be the case that Pine trees’ diameters grow at a different rate relative to their height than Fir trees do. To test this, we’re going to add an interaction between the Diameter variable and the Pine variable.\nTo do this, we need to create an interaction variable. Go back to the data and:\n\nDouble click on an empty data column to bring up a ‘new variable’ window\nClick on ‘New Computed Variable’\nName the variable ‘Interaction’ and in the window that has \\(f_x\\) next to it, type in ‘Pine * Diameter’\nHit enter\n\n\n\n\nDouble click on an empty column to open this window\n\n\n\n\n\nCreate the new interaction variable\n\n\nYou should have a new column called Interaction. Now go back to the linear regression page and add the Interaction variable to the ‘Covariates’ window.\n\n\n\n\n\n\nAdding the interaction variable\n\n\n\n\n\n\n\nMultiple linear regression with interaction output",
+    "crumbs": [
+      "Chapter 3: Doing Inference",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Linear Regression</span>"
+    ]
+  },
+  {
+    "objectID": "common-errors.html",
+    "href": "common-errors.html",
+    "title": "Common Errors and Troubleshooting",
+    "section": "",
+    "text": "Can put stuff like the sig figs issue here.",
+    "crumbs": [
+      "Common Issues",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Common Errors and Troubleshooting</span>"
+    ]
+  }
+]

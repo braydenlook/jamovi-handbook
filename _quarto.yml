@@ -1,0 +1,84 @@
+project:
+  type: book
+  output-dir: docs
+
+brand: _brand.yml
+
+book:
+  title: "Jamovi Handbook"
+  author: " "
+  date: "Last updated: June 2026"
+  output-file: "jamovi-handbook"
+  page-navigation: true
+  search: true
+  downloads: [pdf]
+  sidebar:
+    style: docked
+    background: light
+    border: true
+    collapse-level: 1
+  chapters:
+    - index.qmd
+
+    - part: "Chapter 1: Getting Started"
+      chapters:
+        - installing-jamovi.qmd
+        - opening-data.qmd
+
+    - part: "Chapter 2: Describing Data"
+      chapters:
+        - descriptives.qmd
+        - graphs-and-tables.qmd
+
+    - part: "Chapter 3: Doing Inference"
+      chapters:
+        - ttest.qmd
+        - unpaired-ttest.qmd
+        - power.qmd
+        - anova.qmd
+        - regression.qmd
+
+    - part: "Common Issues"
+      chapters:
+        - common-errors.qmd
+
+number-sections: false
+toc: true
+toc-depth: 3
+fig-cap-location: bottom
+tbl-cap-location: top
+callout-appearance: simple
+
+format:
+  html:
+    theme:
+      - flatly
+      - theme.scss
+    fontsize: 1.05em
+    linestretch: 1.6
+    toc: true
+    toc-location: right
+    code-copy: true
+
+  typst:
+    toc: true
+    toc-title: "Contents"
+    toc-depth: 2
+    number-sections: true
+    numer-depth: 2
+    section-numbering: "1.1"
+
+    papersize: us-letter
+    margin:
+      top: 0.8in
+      bottom: 0.8in
+      left: 0.9in
+      right: 0.9in
+
+    linestretch: 1.15
+
+    linkcolor: "#2F6FBB"
+    urlcolor: "#2F6FBB"
+
+    include-before-body:
+      - pdf-style.typ

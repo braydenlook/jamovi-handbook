@@ -1,0 +1,29 @@
+## Welcome {.unnumbered}
+
+Welcome to the STAT 301/307 jamovi handbook guide. This guide is designed to help you use jamovi for your homework through examples using real data. 
+
+To download these instructions as a pdf, click here. (not implemented yet)
+
+The guide is split up into the following chapters and sections. Click the link to go to the corresponding section.
+
+### Chapter 1: Getting Started
+
+- 1.1 [Installing jamovi](installing-jamovi.qmd)
+- 1.2 [Setting up and loading data into jamovi](opening-data.qmd)
+
+### Chapter 2: Describing Data
+
+- 2.1 [Generating descriptive statistics](descriptives.qmd)
+- 2.2 [Creating plots and tables](graphs-and-tables.qmd)
+
+### Chapter 3: Doing Inference
+
+- 3.1 [T-tests for one population](ttest.qmd)
+- 3.2 [T-tests for two populations](unpaired-ttest.qmd)
+- 3.2 [Power analysis](power.qmd)
+- 3.3 [ANOVA & multiple comparisons](anova.qmd)
+- 3.4 [Linear regression](regression.qmd)
+
+### Appendix
+
+- A.1 [Common issues and solutions](common-issues.qmd)

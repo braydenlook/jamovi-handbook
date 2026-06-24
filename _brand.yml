@@ -1,0 +1,29 @@
+color:
+  palette:
+    navy: "#1B2A41"
+    blue: "#2F6FBB"
+    gray-dark: "#1F2937"
+    gray: "#4B5563"
+    gray-light: "#F3F4F6"
+    cream: "#FFFDF7"
+    white: "#FFFFFF"
+
+  foreground: gray-dark
+  background: white
+  primary: navy
+  secondary: blue
+
+typography:
+  fonts:
+    - family: Atkinson Hyperlegible
+      source: google
+    - family: Source Sans 3
+      source: google
+    - family: JetBrains Mono
+      source: google
+
+  base: Atkinson Hyperlegible
+  headings:
+    family: Source Sans 3
+    weight: 700
+  monospace: JetBrains Mono
