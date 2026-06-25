@@ -3,7 +3,7 @@
 Welcome to the STAT 301/307 jamovi handbook guide. This guide is designed to help you use jamovi for your homework through examples using real data. 
 
 ::: {.content-visible when-format="html"}
-To download these instructions as a pdf, click [here](docs/jamovi-handbook.pdf).
+To download these instructions as a pdf, click [here](jamovi-handbook.pdf).
 
 The guide is split up into the following chapters and sections. Click the link to go to the corresponding section.
 
