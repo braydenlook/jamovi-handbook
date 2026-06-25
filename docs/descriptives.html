@@ -80,6 +80,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -204,22 +233,6 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
- <span class="menu-text">Common Issues</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./common-errors.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Common Errors and Troubleshooting</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
     </ul>
     </div>
 </nav>
@@ -265,7 +278,7 @@ ul.task-list li input[type="checkbox"] {
 <ol type="1">
 <li>Click on the ‘Analyses’ tab at the top of the window.</li>
 <li>Click on ‘Exploration’ –&gt; ‘Descriptives’</li>
-<li>To get statistics for the wingspans, click on the Wingspan variable on the left, then click on the arrow adding it to the ‘Variables’ window. You can also drag and drop variables into the window you want.</li>
+<li>To get statistics for the wingspans, click on the <strong>Wingspan</strong> variable on the left, then click on the arrow adding it to the ‘Variables’ window. You can also drag and drop variables into the window you want.</li>
 </ol>
 <div class="quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row">
@@ -299,15 +312,25 @@ ul.task-list li input[type="checkbox"] {
 <figcaption>Click on ‘Statistics’ to add more statistics to the table</figcaption>
 </figure>
 </div>
-<p>We can see that we can add or remove a number of statistics from this menu. Most of them we can ignore, but let’s add the quartiles to our summary. This can be done by going to the ‘Percentile Values’ term and checking the ‘Percentiles’ box. By default, the values for the ‘Percentiles’ box should be ‘25,50,75’; if they aren’t set to this, change them and then check the box. You should now have the 1st, 2nd, and 3rd quartiles in your descriptive statistics table:</p>
-<p><img src="images/wingspan-descriptives5.png" class="img-fluid" style="width:100.0%" alt="alt text to be replaced"></p>
+<p>We can add or remove a number of statistics from this menu. Most of them we can ignore, but let’s add the quartiles to our summary. This can be done by going to the <strong>Percentile Values</strong> headings and checking the ‘Percentiles’ box. By default, the values for the ‘Percentiles’ box should be ‘<span class="math inline">\(25,50,75\)</span>’; if they aren’t set to this, change them and then check the box. You should now have the 1st, 2nd, and 3rd quartiles in your descriptive statistics table:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/wingspan-descriptives5.png" class="img-fluid figure-img" style="width:100.0%" alt="alt text to be replaced"></p>
+<figcaption>Adding quartiles to our table</figcaption>
+</figure>
+</div>
 </section>
 <section id="summary-statistics-split-by-group" class="level2">
 <h2 class="anchored" data-anchor-id="summary-statistics-split-by-group">Summary statistics split by group</h2>
 <p>Sometimes we want to look at summary statistics for particular groups. For example, we may want to compare the mean and median wingspan of birds from the European region to the mean and median wingspan of birds from Oceania region. To do this in jamovi, we can use the ‘Split by’ window.</p>
 <p>Just like how we added the <strong>Wingspan</strong> variable to the ‘Variables’ window, add the <strong>Region</strong> variable to the ‘Split by’ window:</p>
-<p><img src="images/wingspan-descriptives6.png" class="img-fluid" style="width:100.0%" alt="alt text to be replaced"></p>
-<p>On the right half of jamovi, we can see now that each of our statistics is now split up by region. It’s a little difficult to read though. Click on the ‘Descriptives’ drop down menu below the variable names and select ‘Variables across rows’ to group them horizontally instead of vertically.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/wingspan-descriptives6.png" class="img-fluid figure-img" style="width:100.0%" alt="alt text to be replaced"></p>
+<figcaption>Adding <strong>Region</strong> to the ‘Split by’ window</figcaption>
+</figure>
+</div>
+<p>On the right half of jamovi, we can see now that each of our statistics is now split up by region. However, it’s a little difficult to read when the data is displayed vertically like this. Click on the ‘Descriptives’ drop down menu below the variable names and select ‘Variables across rows’ to group them horizontally instead of vertically.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/wingspan-descriptives7.png" class="img-fluid figure-img" style="width:100.0%" alt="alt text to be replaced"></p>

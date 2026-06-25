@@ -233,22 +233,6 @@ window.Quarto = {
 </li>
       </ul>
   </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
- <span class="menu-text">Common Issues</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./common-errors.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Common Errors and Troubleshooting</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
     </ul>
     </div>
 </nav>
@@ -283,10 +267,16 @@ window.Quarto = {
 <p>In other words, we are going to test the hypothesis <span class="math inline">\(H_0: \mu_{Delta} = \mu_{United}\)</span>, where <span class="math inline">\(\mu\)</span> represents the population average arrival delay time from Denver to LA.</p>
 <p>Start by loading in that data set. Then:</p>
 <ol type="1">
-<li>Go to the Analyses tab and click on ‘T-Tests’ –&gt; ‘Independent-Samples T-Test’.</li>
-<li>Add the <strong>Delay</strong> variable into the ‘Dependent Variables’ window.</li>
-<li>Add the <strong>Airline</strong> variable into the ‘Grouping Variable’ window.</li>
-<li>Ensure that the following boxes are checked: ‘Student’s’, ‘Mean Difference’, ‘Confidence Interval (95%)’, and ‘Group 1 ≠ Group 2’.</li>
+<li>Go to the Analyses tab and click on ‘T-Tests’ –&gt; ‘Independent-Samples T-Test’</li>
+<li>Add the <strong>Delay</strong> variable into the ‘Dependent Variables’ window</li>
+<li>Add the <strong>Airline</strong> variable into the ‘Grouping Variable’ window</li>
+<li>Ensure that the following boxes are checked:
+<ol type="a">
+<li>‘Student’s’</li>
+<li>‘Mean Difference’</li>
+<li>‘Confidence Interval (95%)’</li>
+<li>‘Group 1 <span class="math inline">\(\ne\)</span> Group 2’</li>
+</ol></li>
 </ol>
 <div class="quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row">

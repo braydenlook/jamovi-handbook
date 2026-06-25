@@ -33,7 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./common-errors.html" rel="next">
 <link href="./anova.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -233,22 +232,6 @@ window.Quarto = {
 </li>
       </ul>
   </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
- <span class="menu-text">Common Issues</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./common-errors.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Common Errors and Troubleshooting</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
     </ul>
     </div>
 </nav>
@@ -288,8 +271,8 @@ window.Quarto = {
 
 
 <p>In this section we’ll go over how to compute correlations and do simple and multiple linear regression in jamovi. We’re going to predict the height of a tree using its diameter and species. Begin by loading in the <strong>tree_data.csv</strong> dataset from Canvas.</p>
-<section id="correlation" class="level3">
-<h3 class="anchored" data-anchor-id="correlation">Correlation</h3>
+<section id="correlation" class="level2">
+<h2 class="anchored" data-anchor-id="correlation">Correlation</h2>
 <p>Let’s start by computing the correlation between the height and diameter of the trees.</p>
 <ol type="1">
 <li>Under ‘Analyses’ click on ‘Regression’ –&gt; ‘Correlation Matrix’</li>
@@ -323,10 +306,10 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="simple-linear-regression" class="level3">
-<h3 class="anchored" data-anchor-id="simple-linear-regression">Simple Linear Regression</h3>
+<section id="simple-linear-regression" class="level2">
+<h2 class="anchored" data-anchor-id="simple-linear-regression">Simple Linear Regression</h2>
 <ol type="1">
-<li>In the Analysis tab, click on ‘Regression’ –&gt; ‘Linear Regression’.</li>
+<li>Under ‘Analyses’ tab, click on ‘Regression’ –&gt; ‘Linear Regression’.</li>
 <li>Add the <strong>Height</strong> variable to the ‘Dependent Variable’ window.</li>
 <li>Add the <strong>Diameter</strong> variable to the ‘Covariates’ window.</li>
 </ol>
@@ -358,8 +341,8 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="multiple-linear-regression" class="level3">
-<h3 class="anchored" data-anchor-id="multiple-linear-regression">Multiple Linear Regression</h3>
+<section id="multiple-linear-regression" class="level2">
+<h2 class="anchored" data-anchor-id="multiple-linear-regression">Multiple Linear Regression</h2>
 <section id="adding-a-binary-variable" class="level4">
 <h4 class="anchored" data-anchor-id="adding-a-binary-variable">Adding a Binary Variable</h4>
 <p>Now we’re going to add the binary variable <strong>Pine</strong> which tells us if the observation is a Pine tree (<span class="math inline">\(1\)</span>) or a Fir tree (<span class="math inline">\(0\)</span>). Add the <strong>Pine</strong> variable to the ‘Factors’ window to get the following output:</p>
@@ -840,9 +823,6 @@ window.Quarto = {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./common-errors.html" class="pagination-link" aria-label="Common Errors and Troubleshooting">
-        <span class="nav-page-text"><span class="chapter-title">Common Errors and Troubleshooting</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

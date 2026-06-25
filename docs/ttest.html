@@ -233,22 +233,6 @@ window.Quarto = {
 </li>
       </ul>
   </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
- <span class="menu-text">Common Issues</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./common-errors.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Common Errors and Troubleshooting</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
     </ul>
     </div>
 </nav>
@@ -290,7 +274,7 @@ window.Quarto = {
 </header>
 
 
-<p>In this section we’ll learn how to compute t-statistics and confidence intervals for means in jamovi, including for paired differences. We’ll use the <strong>rotten_tomatoes.csv</strong> dataset for this example, which has data on movies taken from RottenTomatoes.com. First, we’ll calculate t-statistics and confidence intervals for <strong>Critics Ratings</strong> and <strong>Audience Ratings</strong> individually. Then, we’ll do a paired test on their difference.</p>
+<p>In this section we’ll learn how to compute t-statistics and confidence intervals for means in jamovi, including for paired differences. We’ll use the <strong>rotten_tomatoes.csv</strong> dataset for this example, which has data on movies taken from RottenTomatoes.com. First, we’ll calculate t-statistics and confidence intervals for the <strong>Critic Rating</strong> and <strong>Audience Rating</strong> variables individually. Then, we’ll do a paired test on their difference.</p>
 <p><strong>Concept Check:</strong> Why would the difference between the Critics and Audience ratings be <em>paired</em>?</p>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
@@ -340,7 +324,7 @@ window.Quarto = {
 <p>Paired t-tests look at the mean and standard error of the <em>differences</em> column. If we have the two columns but we do <em>not</em> have the differences column, we can use the following procedure:</p>
 <ol type="1">
 <li>Under ‘Analyses’, click on ‘T-Tests’ –&gt; ‘Paired Samples T-Test’</li>
-<li>Add the <strong>Critics Rating</strong> variable and the <strong>Audience Rating</strong> variable to the ‘Paired Variables’ window. Note that the order will determine the sign of the statistic</li>
+<li>Add the <strong>Critic Rating</strong> variable and the <strong>Audience Rating</strong> variable to the ‘Paired Variables’ window. Note that the order will determine the sign of the statistic</li>
 <li>Under <strong>Tests</strong>, ensure that ‘Student’s’ is the only box checked (leave ‘Bayes factor’ unchecked)</li>
 <li>Under <strong>Hypothesis</strong>, click ‘Measure 1 <span class="math inline">\(\ne\)</span> Measure 2’</li>
 <li>Under <strong>Additional Statistics</strong>, check ‘Mean difference’ and ‘Confidence interval’ are checked, and set the confidence interval to 95%</li>
