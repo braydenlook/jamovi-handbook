@@ -31,7 +31,7 @@ By default, jamovi only shows the number of entries (N), the number of rows with
 
 We can add or remove a number of statistics from this menu. Most of them we can ignore, but let's add the quartiles to our summary. This can be done by going to the **Percentile Values** headings and checking the 'Percentiles' box. By default, the values for the 'Percentiles' box should be '$25,50,75$'; if they aren't set to this, change them and then check the box. You should now have the 1st, 2nd, and 3rd quartiles in your descriptive statistics table:
 
-![](images/wingspan-descriptives5.png){width=100% fig-alt="alt text to be replaced"}
+![Adding quartiles to our table](images/wingspan-descriptives5.png){width=100% fig-alt="alt text to be replaced"}
 
 ## Summary statistics split by group
 
@@ -39,7 +39,7 @@ Sometimes we want to look at summary statistics for particular groups. For examp
 
 Just like how we added the **Wingspan** variable to the 'Variables' window, add the **Region** variable to the 'Split by' window: 
 
-![](images/wingspan-descriptives6.png){width=100% fig-alt="alt text to be replaced"}
+![Adding **Region** to the 'Split by' window](images/wingspan-descriptives6.png){width=100% fig-alt="alt text to be replaced"}
 
 On the right half of jamovi, we can see now that each of our statistics is now split up by region. However, it's a little difficult to read when the data is displayed vertically like this. Click on the 'Descriptives' drop down menu below the variable names and select 'Variables across rows' to group them horizontally instead of vertically.
 

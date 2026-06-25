@@ -38,10 +38,6 @@ book:
         - anova.qmd
         - regression.qmd
 
-    - part: "Common Issues"
-      chapters:
-        - common-errors.qmd
-
 number-sections: false
 toc: true
 toc-depth: 3
@@ -62,8 +58,10 @@ format:
 
   typst:
     toc: true
+    lof: false
+    lot: false
     toc-title: "Contents"
-    toc-depth: 2
+    toc-depth: 1
     number-sections: true
     number-depth: 2
     section-numbering: "1.1"

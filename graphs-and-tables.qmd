@@ -40,7 +40,7 @@ We're going to learn how to make histograms and boxplots of the **Wingspan** var
 2. Add the **Wingspan** variable to the 'Variables' window
 3. Click on the 'Plots' dropdown menu below
 
-![](images/wingspan-plots1.png){width=100% fig-alt="alt text to be replaced"}
+![Click on the plots dropdown menu](images/wingspan-plots1.png){width=100% fig-alt="alt text to be replaced"}
 
 ### Histograms
 
@@ -57,7 +57,7 @@ It's also easy to split the histograms by another variable. We'll create a histo
 
 Similarly, we can create boxplots by selecting the 'Boxplot' checkbox as seen below:
 
-![](images/wingspan-boxplot2.png){width=100% fig-alt="alt text to be replaced"}
+![Creating boxplots](images/wingspan-boxplot2.png){width=100% fig-alt="alt text to be replaced"}
 
 
 

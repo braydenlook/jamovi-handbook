@@ -16,7 +16,7 @@ The option on the left is **jamovi Cloud**, which allows you to use jamovi in yo
 
 In this class, you can use either. The benefit of jamovi Cloud is that you don't need to download or install anything. The downsides are that you can only use jamovi Cloud when you have an internet connection, you have a limited number of minutes per session, and you'll need to sign up for an account. We would recommend jamovi Desktop, but feel free to use jamovi Cloud if you're having trouble with the download and installation steps.
 
-## jamovi Cloud
+### jamovi Cloud
 
 If you opt to use jamovi Cloud, all you need to do is click on 'jamovi Cloud', then click on 'Start', which should open up a screen like this:
 
@@ -35,7 +35,7 @@ Sometimes the verification emails can get filtered; make sure to check your spam
 :::
 
 
-## Downloading and Installing jamovi Desktop 
+### jamovi Desktop 
 
 #### Download for Windows
 
