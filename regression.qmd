@@ -2,7 +2,7 @@
 
 In this section we'll go over how to compute correlations and do simple and multiple linear regression in jamovi. We're going to predict the height of a tree using its diameter and species. Begin by loading in the **tree_data.csv** dataset from Canvas.
 
-### Correlation
+## Correlation
 
 Let's start by computing the correlation between the height and diameter of the trees.
 
@@ -21,9 +21,9 @@ You should get the following output:
 
 ![Correlation matrix output](images/tree-correlation3.png){.lightbox width=50%}
 
-### Simple Linear Regression
+## Simple Linear Regression
 
-1. In the Analysis tab, click on 'Regression' --> 'Linear Regression'.
+1. Under 'Analyses' tab, click on 'Regression' --> 'Linear Regression'.
 2. Add the **Height** variable to the 'Dependent Variable' window.
 3. Add the **Diameter** variable to the 'Covariates' window.
 
@@ -39,7 +39,7 @@ That's it! Your output should match the image below:
 
 ![Simple linear regression output](images/trees3.png){.lightbox width=50%}
 
-### Multiple Linear Regression
+## Multiple Linear Regression
 
 
 #### Adding a Binary Variable

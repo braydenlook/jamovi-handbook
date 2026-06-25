@@ -24,7 +24,9 @@ If you opt to use jamovi Cloud, all you need to do is click on 'jamovi Cloud', t
 
 You'll need to start by creating an account.
 
-Click on 'Get Started' --> 'Sign in as Guest' --> 'Sign in with email'. Enter your CSU email, click on 'Next', and then set your password. Then click on 'Send verification' and click the link that is emailed to you to verify your account. It may take a few minutes for it to show up in your inbox. 
+1. Click on 'Get Started' --> 'Sign in as Guest' --> 'Sign in with email'.
+2. Enter your CSU email, click on 'Next', and then set your password.
+3. Click on 'Send verification' and click the link that is emailed to you to verify your account. It may take a few minutes for it to show up in your inbox. 
 
 ::: {.callout-warning}
 ## Check your spam folder! 
@@ -50,7 +52,7 @@ After clicking on jamovi Desktop from the page seen in @fig-jamovi-option, scrol
 
 ![](images/desktop-download3.png){#fig-jamovi-mac-download width=50%}
 
-Click on whatever the stable version for Mac is to download it.
+Click on whatever the 'solid' version for Mac is to download it.
 
 ---
 

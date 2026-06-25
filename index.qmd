@@ -20,10 +20,6 @@ The guide is split up into the following chapters and sections. Click the link t
 
 - 3.1 [T-tests for one population](ttest.qmd)
 - 3.2 [T-tests for two populations](unpaired-ttest.qmd)
-- 3.2 [Power analysis](power.qmd)
-- 3.3 [ANOVA & multiple comparisons](anova.qmd)
-- 3.4 [Linear regression](regression.qmd)
-
-### Appendix
-
-- A.1 [Common issues and solutions](common-issues.qmd)
+- 3.3 [Power analysis](power.qmd)
+- 3.4 [ANOVA & multiple comparisons](anova.qmd)
+- 3.5 [Linear regression](regression.qmd)

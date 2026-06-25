@@ -9,7 +9,7 @@ In this section we'll go over how to generate 1-way and 2-way tables for categor
 First, we'll create a one-way table of regions. 
 
 1. Under 'Analyses', click on 'Frequencies' --> 'N Outcomes'
-2. Ddd the **Region** variable to the 'Variables' window
+2. Add the **Region** variable to the 'Variables' window
 
 ![Click on 'N Outcomes'](images/wingspan-tables1.png){.lightbox width=50%}
 

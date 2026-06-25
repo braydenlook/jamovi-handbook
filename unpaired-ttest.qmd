@@ -6,10 +6,14 @@ In other words, we are going to test the hypothesis  $H_0: \mu_{Delta} = \mu_{Un
 
 Start by loading in that data set. Then:
 
-1. Go to the Analyses tab and click on 'T-Tests' --> 'Independent-Samples T-Test'.
-2. Add the **Delay** variable into the 'Dependent Variables' window.
-3. Add the **Airline** variable into the 'Grouping Variable' window.
-4. Ensure that the following boxes are checked: 'Student's', 'Mean Difference', 'Confidence Interval (95%)', and 'Group 1 &ne; Group 2'.
+1. Go to the Analyses tab and click on 'T-Tests' --> 'Independent-Samples T-Test'
+2. Add the **Delay** variable into the 'Dependent Variables' window
+3. Add the **Airline** variable into the 'Grouping Variable' window
+4. Ensure that the following boxes are checked:
+	a. 'Student's'
+	b. 'Mean Difference'
+	c. 'Confidence Interval (95%)'
+	d. 'Group 1 $\ne$ Group 2'
 
 ::: {layout-ncol=2}
 

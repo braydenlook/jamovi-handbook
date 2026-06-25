@@ -36,9 +36,10 @@ In this course, data is typically in a "Comma-Separated Values" file or **CSV** 
 Start by downloading the **wingspan_data.csv** file from Canvas. Then in jamovi:
 
 1. Click on the three horizontal lines in the top left corner.
-2a. (If you're using jamovi Desktop) Click 'Open' --> 'Browse'
-2b. (If you're using jamovi Cloud) Click 'Open' --> 'This Device'
-3. This will bring up a file explorer window. Locate the **wingspan.csv** file you just downloaded and click 'Open'.
+2. Click 'Open'
+	a. (If you're using jamovi Desktop) Click 'Browse'
+	b. (If you're using jamovi Cloud) Click 'This Device'
+3. This will bring up a file explorer window. Locate the **wingspan_data.csv** file you just downloaded and click 'Open'.
 
 ::: {layout-ncol=2}
 

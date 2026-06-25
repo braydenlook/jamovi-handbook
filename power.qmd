@@ -36,9 +36,9 @@ Under the 'Analyses' tab, click on 'Power' --> 'Independent Samples T-test'. Mak
 
 Power analysis problems can come in three different varieties:
 
-1. Given a sample size and effect size, calculate power.
-2. Given power and an effect size, calculate the sample size.
-3. Given power and a sample size, calculate the effect size.
+1. Given a sample size and effect size, calculate power
+2. Given power and an effect size, calculate the sample size
+3. Given power and a sample size, calculate the effect size
 
 ### Computing Power
 
@@ -88,8 +88,8 @@ Finally, we'll calculate effect size given sample size and desired power. We'll 
 2. Set 'Minimum desired power' $= 0.7$
 3. Set 'N for group 1' $= 10$
 
-![Settings for computing sample size](images/power9-settings.png){.lightbox width=50%}
+![Settings for computing effect size](images/power9-settings.png){.lightbox width=50%}
 
 Your output should look like the following:
 
-![Calculating sample size for power $= 0.7$, $\delta = 0.5$](images/power9.png){.lightbox width=75%}
+![Calculating effect size for power $= 0.7$, $n = 20$](images/power9.png){.lightbox width=75%}
