@@ -6,7 +6,7 @@ jamovi is a statistical software that we will use for homework assignments in th
 
 ## Where do I get jamovi?
 
-Start by going to [jamovi.org](jamovi.org). After scrolling down a bit, you should see something like the figure below:
+Start by going to [jamovi.org](https://www.jamovi.org){target="_blank"}. After scrolling down a bit, you should see something like the figure below:
 
 ![](images/cloud-v-desktop.png){#fig-jamovi-option width=80%}
 
